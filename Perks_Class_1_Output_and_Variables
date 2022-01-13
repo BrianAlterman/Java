@@ -1,0 +1,35 @@
+//Alert
+alert("Look Out!")
+//Alert opens an alert, multiple alerts each open in order
+
+//document.write
+document.write("Text to print")
+document.write("<br>" + "NEW LINE")
+//document.write writes the text as output, not alert
+
+//console.log
+console.log('Text of log')
+
+//first assignment
+document.write("I love coding")
+document.write("<br>"+"Badger")
+
+//variables
+//let 
+let age = 47
+document.write(age)
+
+let weight = "alot"
+document.write("<br>" + weight)
+
+//var
+var mood = "happy"
+document.write("<br>" + mood)
+
+//name of vairable must start with a letter, underscore, or dollar sign
+//names are case sensitive
+
+//variable with prompt
+document.write("Hello ")
+var b = prompt("Name?")
+document.write(b)
